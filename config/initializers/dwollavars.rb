@@ -6,7 +6,7 @@ module DwollaVars
 	@@key ||= "OFvc0S1ccEhgI/qJleEsIQQBdb3/mReQMkaNQmFbbo8PaAAtYI"
 	@@secret ||= "oi6jXUSXVN1MuB0YT6X5WV/Alhv9MZdtDLSd71h6HOLRpu6fSf"
 
-	@@redirect ||= "http://localhost:3000/dashboard/handle_oauth"
+	@@redirect ||= "https://dwolla-recurring.herokuapp.com/dashboard/handle_oauth"
 
 	@@Dwolla ||= Dwolla
 	@@Dwolla::api_key ||= @@key
